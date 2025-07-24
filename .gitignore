@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Selenium logs
+selenium.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
+*.bak
+
+# Chromedriver (if you don't want to commit the binary)
+chromedriver.exe
