@@ -12,7 +12,6 @@ env.bak/
 venv.bak/
 
 # PyInstaller
-dist/
 build/
 *.spec
 
@@ -31,6 +30,3 @@ Thumbs.db
 *.log
 *.tmp
 *.bak
-
-# Chromedriver (if you don't want to commit the binary)
-chromedriver.exe
