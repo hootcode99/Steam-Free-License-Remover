@@ -68,10 +68,10 @@ else:
             if removed_batch_count == total_batch_count:
                 break
             else:
-                print("Waiting for 10 minutes before next batch...")
-                for i in range(10, 0, -1):
+                print("Waiting for 20 minutes before next batch...")
+                for i in range(20, 0, -1):
                     print(f"{i} minutes remaining...", end="\r")
-                    time.sleep(120)
+                    time.sleep(60)
                 license_remove_links = driver.find_elements(By.XPATH, "//a[starts-with(@href, 'javascript:RemoveFreeLicense')]")
 
         print("Completed removing licenses.")
